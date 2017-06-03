@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-playground",
+  "version": "0.1.0",
+  "description": "Playground for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djoepramono/nodejs-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djoepramono/nodejs-playground/issues"
+  },
+  "homepage": "https://github.com/djoepramono/nodejs-playground#readme"
+}
