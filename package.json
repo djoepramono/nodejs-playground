@@ -6,7 +6,8 @@
   "scripts": {
     "test": "test",
     "watch": "$(npm bin)/webpack --watch",
-    "pack:modules": "$(npm bin)/webpack --config ./modules/modules.config.js"
+    "pack:modules": "$(npm bin)/webpack --config ./modules/modules.config.js",
+    "build": "$(npm bin)/babel flow/ -d flow/output/"
   },
   "presets": [
     "flow"
@@ -23,7 +24,7 @@
   "homepage": "https://github.com/djoepramono/nodejs-playground#readme",
   "devDependencies": {
     "babel": "^6.23.0",
-    "babel-cli": "^6.24.1",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.25.0",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.1.1",
@@ -33,11 +34,13 @@
     "eslint": "^4.4.0",
     "flow-bin": "^0.51.1",
     "rollup": "^0.47.4",
-    "webpack": "^3.4.1"
+    "webpack": "^3.4.1",
+    "mocha": "^3.5.3",
   },
   "dependencies": {
     "babel-preset-flow": "^6.23.0",
     "bluebird": "^3.5.0",
+    "express": "^4.15.4",
     "sleep": "^5.1.1",
     "yarn": "^0.27.5"
   }
